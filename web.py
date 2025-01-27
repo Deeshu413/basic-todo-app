@@ -1,4 +1,3 @@
-
 import streamlit as st
 import todo_func
 
@@ -24,7 +23,3 @@ for index, todo in enumerate(todos):
 
 st.text_input(label="your input here", placeholder="Add a new todo", on_change=add_todo,
               key= 'new_todo')
-
-print("hello")
-
-st.session_state
